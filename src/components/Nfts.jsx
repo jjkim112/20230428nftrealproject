@@ -61,7 +61,7 @@ const Nfts = ({ page, mintedNft }) => {
     getNfts(1);
   }, []);
   return (
-    <div className="max-w-screen-xl ma-auto pt-4">
+    <div className="max-w-screen-xl mx-auto pt-4">
       <div>{pageComp()}</div>
       <ul className="mt-8 grid grid-cols-1` xl:grid-cols-2 justify-items-center gap-8">
         {nfts ? (

@@ -16,7 +16,9 @@ const NftCard = ({ tokenId, metadata, mintedNft }) => {
           <GiDevilMask size={18} />
         </div>
       </div>
-      <div className="mt-4 text-2xl font-bold px-4">#{tokenId}</div>
+      <div className="mt-4 text-2xl font-bold px-4">
+        #{tokenId} {metadata.name}
+      </div>
       <div className="mt-4 text-sm flex justify-end px-4">
         <Link to={`/${tokenId}`}>
           <button
