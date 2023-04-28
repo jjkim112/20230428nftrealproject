@@ -33,9 +33,9 @@ const Intro = ({ totalNft, mintedNft, myNft }) => {
               <div className="text-main ml-2">{CONTRACT_ADDRESS}</div>
             </div>
             <div className="mt-2 text-gray-300">
-              카이란 주식회사 리레이즈의 유머넘치는 코너 전용 딜러이며
-              바퀴벌레랑 전쟁을 하다가 장렬히 회사를 잘 다니고 있는 슈퍼 울트라
-              라이트 썬더 오메가 일렉트릭 어스퀘이크 토네이도 입니다.
+              카이란 주식회사 리레이즈에서 디자인과 개발의 능력을 모두
+              겸비하고자하는 열심이 입니다 나중에 리드 개발자 리드 디자이너가
+              될것입니다.
             </div>
             <div className="py-4 text-center flex">
               <div>
